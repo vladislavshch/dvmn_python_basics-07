@@ -4,7 +4,6 @@ from pytimeparse import parse
 
 
 TELEGRAM_TOKEN = config("TG_TOKEN")
-TELEGRAM_CHAT_ID = config("TG_CHAT_ID")
 bot = ptbot.Bot(TELEGRAM_TOKEN)
 
 
